@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>广告投放代理</title>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/css3.css"/>
+<link rel="stylesheet" href="css/swiper.min.css" />
+</head>
+<body>
+	<section id="lock">
+		<p>请使用竖屏浏览获取最佳体验</p>
+	</section>
+	<div class="swiper-container swiper-parent">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="full-cnt full-cnt01">
+		      		<i class="light"></i>
+		      		<h2 class="title01"></h2>
+		      		<span class="people">
+						<!-- <i class="zi"></i>
+						<a href="#" class="btn"></a> -->
+		      		</span>
+		      		<i class="p1"><em class="mes mes01"></em></i>
+		    	</div>
+				<div class="ico-arrow"></div>
+			</div>
+			<div class="swiper-slide">
+				<div class="full-cnt full-about">
+					<div class="moveTop">
+						<i class="light02"></i>
+						<h2 class="title05"></h2>
+						<i class="about"></i>
+					</div>
+					<div class="about-js"></div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="full-cnt full-cnt02">
+					<h2 class="title02"></h2>
+					<span class="page02">
+					</span>
+					<i class="zi02"></i>
+		    	</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="full-cnt full-cnt02">
+					<ul class="list-sm">
+						<li>手游海外推广解决方案</li>
+						<li>页游、手游、其他app推广</li>
+						<li>电商推广销售方案</li>
+						<li>婚恋交友行业品牌销售</li>
+						<li>教育培训行业推广销售</li>
+						<li>各行各业SEM整合销售</li>
+					</ul>
+					<span class="page02">
+						<i class="p2">
+							<em class="mes mes02"></em>
+							<em class="mes mes03"></em>
+						</i>
+					</span>
+					<i class="pet">
+						<em class="mes mes04"></em>
+					</i>
+		    	</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="full-cnt full-cnt04">
+					<div class="moveTop">
+						<i class="light02"></i>
+						<h2 class="title04"></h2>
+					</div>
+					<div class="moveBg">
+						<!-- Swiper -->
+					    <div class="swiper-container swiper-container-v">
+					        <div class="swiper-wrapper">
+					            <div class="swiper-slide">
+									<div class="serMain">
+										<span class="ser-show show01"></span>
+									</div>
+					            </div>
+					            <div class="swiper-slide">
+									<div class="serMain">
+										<span class="ser-show show02"></span>
+									</div>
+					            </div>
+					            <div class="swiper-slide">
+									<div class="serMain">
+										<span class="ser-show show03"></span>
+									</div>
+								</div>
+					        </div>
+					        <!-- Add Arrows -->
+					        <div class="swiper-button-next"></div>
+					        <div class="swiper-button-prev"></div>
+					    </div>
+					</div>
+		    	</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="full-cnt full-cnt03">
+					<i class="tel"></i>
+					<h2 class="title03"></h2>
+					<div class="address">
+						<p>地址：广东省广州市海珠区琶洲大道东3号保利国际广场东裙楼3楼</p>
+						<p>电话：13751853247   15920397349</p>
+						<p>邮箱：majun@cndw.com Xuan.x@cndw.com</p>
+						<p>Q　Q:  692943125  692942792</p>
+						<div class="ewm"><img src="images/ewm.png" alt="火马工作室" />关注微信</div>
+					</div>
+		    	</div>
+			</div>
+		</div>
+	</div>
+	<div class="load" id='loading'><div class="full-loading"><i class="full-loading-i1"></i><i class="full-loading-i2"></i></div></div>
+<script type="text/javascript" charset="utf-8" src="js/zepto.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/swiper.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+//alert(document.body.clientHeight);//460  5s
+document.onreadystatechange = loading; 
+function loading(){
+	if(document.readyState == "complete"){ 
+		$(".load").addClass('load-hide');
+		var swiper = new Swiper('.swiper-parent', {
+			direction: 'vertical'
+	    });
+	    var swiperV = new Swiper('.swiper-container-v', {
+			nextButton: '.swiper-button-next',
+	        prevButton: '.swiper-button-prev',
+        	slidesPerView: 1,
+	        spaceBetween: 30,
+        	loop: true
+	    });
+	}
+	
+}
+
+
+</script>
+</body>
+</html>
